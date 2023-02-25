@@ -1,0 +1,21 @@
+CREATE TABLE students (
+ id INT, 
+ name varchar,
+ age INT,
+ gender varchar,
+ PRIMARY KEY (id)
+);
+ 
+ insert into students 
+ values (1, 'Ram', 22, 'male'),
+ (2,'Sita', 22, 'female'),
+ (3,'bheem', 23, 'male');
+ 
+ update students
+ set name = 'janet' where id= 2;
+ 
+ delete from students 
+ where id = 3;
+ 
+ select * from students;
+ 
